@@ -21,10 +21,12 @@ const backF = () => {
   return (
   <div className="flip absolute inset-x-0 mx-auto mt-5 text-white ">
     <div className={"card w-full h-full " + back}>
+      {/* card front */}
       <div onClick={backF} className="absolute rounded-2xl pt-5 pl-8 pr-5 w-full h-full card__face front ">
         <h2>Questions? <br /> Go ahead, give us a call.</h2>
         <div className="open absolute" onClick={backF}></div>
       </div>
+      {/* card back */}
       <div className="absolute rounded-2xl pt-5 pl-8 pr-5 w-full h-full card__face back">
         <div className={backtext}>
         <h2 className="mb-5">Lorum Ipsum ...</h2>

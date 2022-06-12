@@ -9,6 +9,7 @@ body {
   perspective: 1000px;
 }
 
+/* card 3d flip animation */
 .card {
   transition: transform 0.5s;
  transform-style: preserve-3d;
@@ -25,6 +26,8 @@ body {
  backface-visibility: hidden;
 }
 
+
+/* grow animation */
 .front {
   background-size: 100% !important;
   background-position: center !important;
@@ -65,6 +68,8 @@ body {
   opacity: 1;
 }
 
+
+/* back text animation */
 .backtext {
   animation-name: textanimate;
   animation-delay: 0.6s;
